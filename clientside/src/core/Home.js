@@ -58,7 +58,7 @@ export default function Home({history}){
                      <div className="overlay"></div>
                      <div className="content">
                        <div className="logo">
-                         <a href="#"></a>
+                         <a href="#"><span></span></a>
                        </div>
                        <div className="header">
                          <h4>Ins<span>taB</span>ook</h4>
