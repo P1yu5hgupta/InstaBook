@@ -74,6 +74,7 @@ export default function Signup (){
 
     return (<div>
       <Menu></Menu>
+      <br></br><br></br> <br></br><br></br>
       <Card className={classes.card}>
         <CardContent>
           <Typography variant="h6" className={classes.title}>

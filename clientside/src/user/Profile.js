@@ -116,6 +116,7 @@ export default function Profile({ match }) {
     return(
       <div>
         <Menu></Menu>
+        <br></br><br></br> <br></br><br></br>
         <Paper className={classes.root} elevation={4}>
         <Typography variant="h6" className={classes.title} style={{'color':'#559256'}}>
           Profile

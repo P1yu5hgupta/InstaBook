@@ -15,7 +15,7 @@ const isActive = (history, path) => {
     return {color: '#ffffff'}
 }
 const Menu = withRouter(({history}) => (
-  <AppBar position="static">
+  <AppBar position="fixed">
     <Toolbar style={{'background-color':'black'}}>
       <Typography variant="h6" color="black" style={{'margin-left':'10%'}}>
         InstaBook

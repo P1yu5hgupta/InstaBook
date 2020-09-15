@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     textAlign: 'right',
     backgroundColor: '#ededed',
     borderBottom: '1px solid #d0d0d0',
-    '& a':{
+    '& a':{ 
       color: '#3f4771'
     } 
   }
@@ -74,6 +74,7 @@ export default function Home({history}){
         {defaultPage &&
           <div>
             <Menu></Menu>
+            <br></br><br></br> <br></br><br></br>
           <div  className={classes.root}>
           <Grid container spacing={8}>
           <Grid item xs={6} sm={5}>
